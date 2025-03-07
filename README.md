@@ -15,4 +15,4 @@ How to properly use Rclone on NERC OpenShift read [this document](https://nerc-p
 
 ## Source
 
-In the `standalone/container` folder you'll find the Dockerfile used to create the container images used in `02-deployment.yaml` at `https://github.com/nerc-project/rclone-web-on-openshift/blob/main/standalone/deploy/02-deployment.yaml#L38`.
+In the `standalone/container` folder you'll find the Dockerfile used to create the container images used in `02-deployment.yaml` at [this line](https://github.com/nerc-project/rclone-web-on-openshift/blob/main/standalone/deploy/02-deployment.yaml#L38).
