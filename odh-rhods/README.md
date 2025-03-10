@@ -1,1 +1,1 @@
-# Rclone for deployment in Open Data Hub or OpenShift Data Science
+# Rclone for deployment using Data Science Project (DSP) in the NERC RHOAI
