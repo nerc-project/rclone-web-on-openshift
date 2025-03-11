@@ -1,12 +1,10 @@
-kind: Route
 apiVersion: route.openshift.io/v1
+kind: Route
 metadata:
-  name: rclone
   labels:
     app: rclone
-    app.kubernetes.io/component: rclone
-    app.kubernetes.io/instance: rclone
     app.kubernetes.io/part-of: rclone-app
+  name: rclone
 spec:
   to:
     kind: Service

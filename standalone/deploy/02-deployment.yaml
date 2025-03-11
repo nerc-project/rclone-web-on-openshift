@@ -1,13 +1,10 @@
-kind: Deployment
 apiVersion: apps/v1
+kind: Deployment
 metadata:
-  name: rclone
   labels:
     app: rclone
-    app.kubernetes.io/component: rclone
-    app.kubernetes.io/instance: rclone
     app.kubernetes.io/part-of: rclone-app
-    app.openshift.io/runtime-namespace: rclone
+  name: rclone
 spec:
   replicas: 1
   selector:
