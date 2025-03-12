@@ -1,10 +1,10 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
+  name: rclone
   labels:
     app: rclone
     app.kubernetes.io/part-of: rclone-app
-  name: rclone
 spec:
   replicas: 1
   selector:
